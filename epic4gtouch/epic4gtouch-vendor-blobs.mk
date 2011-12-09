@@ -60,7 +60,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/epic4gtouch/proprietary/audio/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     vendor/samsung/epic4gtouch/proprietary/audio/lib_Samsung_Sound_Booster.so:system/lib/lib_Samsung_Sound_Booster.so \
     vendor/samsung/epic4gtouch/proprietary/audio/libsoundalive.so:system/lib/libsoundalive.so \
-    vendor/samsung/epic4gtouch/proprietary/audio/libsoundpool.so:system/lib/libsoundpool.so \
     vendor/samsung/epic4gtouch/proprietary/audio/libSR_AudioIn.so:system/lib/libSR_AudioIn.so \
     vendor/samsung/epic4gtouch/proprietary/audio/libyamahasrc.so:system/lib/libyamahasrc.so
+	
+# EGL
+PRODUCT_COPY_FILES += \
+	vendor/samsung/epic4gtouch/proprietary/libUMP.so:system/lib/libUMP.so \
+	vendor/samsung/epic4gtouch/proprietary/libMali.so:system/lib/libMali.so 
+	
 

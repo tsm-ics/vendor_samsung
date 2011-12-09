@@ -14,7 +14,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 #PRODUCT_COPY_FILES := \
-    #vendor/samsung/c1-common/proprietary/libcamera.so:obj/lib/libcamera.so
+    vendor/samsung/c1-common/proprietary/libcamera.so:obj/lib/libcamera.so
 
 # All the blobs necessary for galaxys2 devices
 PRODUCT_COPY_FILES += \
@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c1-common/proprietary/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/c1-common/proprietary/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/samsung/c1-common/proprietary/libcameraservice.so:system/lib/libcameraservice.so \
-    #vendor/samsung/c1-common/proprietary/libcamera.so:system/lib/libcamera.so \
+    vendor/samsung/c1-common/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/c1-common/proprietary/libcaps.so:system/lib/libcaps.so \
     vendor/samsung/c1-common/proprietary/libEGL.so:system/lib/libEGL.so \
     vendor/samsung/c1-common/proprietary/libexif.so:system/lib/libexif.so \
@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c1-common/proprietary/libtvout.so:system/lib/libtvout.so \
 	vendor/samsung/c1-common/proprietary/libUMP.so:system/lib/libUMP.so \
 	vendor/samsung/c1-common/proprietary/libsoundpool.so:system/lib/libsoundpool.so
+
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/c1-common/proprietary/BCM4330B1_002.001.003.0221.0265.hcd:system/bin/BCM4330B1_002.001.003.0221.0265.hcd \
