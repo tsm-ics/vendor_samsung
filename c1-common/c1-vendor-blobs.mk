@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Prebuilt libraries that are needed to build open-source libraries
-#PRODUCT_COPY_FILES := \
+PRODUCT_COPY_FILES := \
     vendor/samsung/c1-common/proprietary/libcamera.so:obj/lib/libcamera.so
 
 # All the blobs necessary for galaxys2 devices
@@ -55,8 +55,8 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/c1-common/proprietary/BCM4330B1_002.001.003.0221.0265.hcd:system/bin/BCM4330B1_002.001.003.0221.0265.hcd \
-    vendor/samsung/c1-common/proprietary/tvoutserver:system/bin/tvoutserver
+    vendor/samsung/c1-common/proprietary/bcm4330.hcd:system/bin/bcm4330.hcd 
+    #vendor/samsung/c1-common/proprietary/tvoutserver:system/bin/tvoutserver
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/c1-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
@@ -80,20 +80,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c1-common/proprietary/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/samsung/c1-common/proprietary/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/samsung/c1-common/proprietary/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-    vendor/samsung/c1-common/proprietary/hw/camera.omap4.so:system/lib/hw/camera.omap4.so \
     vendor/samsung/c1-common/proprietary/hw/copybit.smdkv310.so:system/lib/hw/copybit.smdkv310.so \
-    vendor/samsung/c1-common/proprietary/hw/gps.smdkv310.so:system/lib/hw/gps.smdkv310.so \
-	vendor/samsung/c1-common/proprietary/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
+    vendor/samsung/c1-common/proprietary/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     vendor/samsung/c1-common/proprietary/hw/gralloc.smdkv310.so:system/lib/hw/gralloc.smdkv310.so \
-    vendor/samsung/c1-common/proprietary/hw/lights.smdkv310.so:system/lib/hw/lights.smdkv310.so \
-    vendor/samsung/c1-common/proprietary/hw/overlay.smdkv310.so:system/lib/hw/overlay.smdkv310.so \
-    vendor/samsung/c1-common/proprietary/hw/vendor-gps.smdkv310.so:system/lib/hw/vendor-gps.smdkv310.so 
+    vendor/samsung/c1-common/proprietary/hw/overlay.smdkv310.so:system/lib/hw/overlay.smdkv310.so 
+     
 	
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/c1-common/proprietary/wifi/bcm4330_aps.bin:system/vendor/firmware/bcm4330_aps.bin \
     vendor/samsung/c1-common/proprietary/wifi/bcm4330_mfg.bin:system/vendor/firmware/bcm4330_mfg.bin \
-    vendor/samsung/c1-common/proprietary/wifi/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin
+    vendor/samsung/c1-common/proprietary/wifi/bcm4330_sta.bin:system/vendor/firmware/bcm4330_sta.bin \
+	vendor/samsung/c1-common/proprietary/wifi/fw_bcm4330.bin:/vendor/firmware/fw_bcm4330.bin \
+	vendor/samsung/c1-common/proprietary/wifi/fw_bcm4330_apsta.bin:/vendor/firmware/fw_bcm4330_apsta.bin \
+	vendor/samsung/c1-common/proprietary/wifi/fw_bcm4330_p2p.bin:/vendor/firmware/fw_bcm4330_p2p.bin
+	
 
 # offmode charging    
 PRODUCT_COPY_FILES += \

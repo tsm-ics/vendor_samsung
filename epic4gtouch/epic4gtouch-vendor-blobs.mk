@@ -16,9 +16,9 @@
 PRODUCT_COPY_FILES := \
     vendor/samsung/epic4gtouch/proprietary/libril.so:obj/lib/libril.so \
     vendor/samsung/epic4gtouch/proprietary/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/epic4gtouch/proprietary/audio/libaudio.so:obj/lib/libaudio.so \
-    vendor/samsung/epic4gtouch/proprietary/audio/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
-    vendor/samsung/epic4gtouch/proprietary/audio/libaudiopolicy.so:obj/lib/libaudiopolicy.so
+   # vendor/samsung/epic4gtouch/proprietary/audio/libaudio.so:obj/lib/libaudio.so \
+    vendor/samsung/epic4gtouch/proprietary/audio/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so 
+    #vendor/samsung/epic4gtouch/proprietary/audio/libaudiopolicy.so:obj/lib/libaudiopolicy.so
 
 # All the blobs necessary for epic4gtouch
     
@@ -44,11 +44,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/epic4gtouch/proprietary/audio/alsa_ctl:system/bin/alsa_ctl \
     vendor/samsung/epic4gtouch/proprietary/audio/alsa_ucm:system/bin/alsa_ucm \
     vendor/samsung/epic4gtouch/proprietary/audio/libasound.so:system/lib/libasound.so \
-    vendor/samsung/epic4gtouch/proprietary/audio/libaudio.so:system/lib/libaudio.so \
+    #vendor/samsung/epic4gtouch/proprietary/audio/libaudio.so:system/lib/libaudio.so \
     vendor/samsung/epic4gtouch/proprietary/audio/libaudioeffect_jni.so:system/lib/libaudioeffect_jni.so \
     vendor/samsung/epic4gtouch/proprietary/audio/libaudiohw_op.so:system/lib/libaudiohw_op.so \
     vendor/samsung/epic4gtouch/proprietary/audio/libaudiohw_sf.so:system/lib/libaudiohw_sf.so \
-    vendor/samsung/epic4gtouch/proprietary/audio/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+    #vendor/samsung/epic4gtouch/proprietary/audio/libaudiopolicy.so:system/lib/libaudiopolicy.so \
     vendor/samsung/epic4gtouch/proprietary/audio/liblvvefs.so:system/lib/liblvvefs.so \
     vendor/samsung/epic4gtouch/proprietary/audio/libmediayamaha.so:system/lib/libmediayamaha.so \
     vendor/samsung/epic4gtouch/proprietary/audio/libmediayamaha_jni.so:system/lib/libmediayamaha_jni.so \
