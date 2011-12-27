@@ -16,10 +16,8 @@
 PRODUCT_COPY_FILES := \
     vendor/samsung/epic4gtouch/proprietary/libril.so:obj/lib/libril.so \
     vendor/samsung/epic4gtouch/proprietary/libsecril-client.so:obj/lib/libsecril-client.so \
-   # vendor/samsung/epic4gtouch/proprietary/audio/libaudio.so:obj/lib/libaudio.so \
     vendor/samsung/epic4gtouch/proprietary/audio/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so 
-    #vendor/samsung/epic4gtouch/proprietary/audio/libaudiopolicy.so:obj/lib/libaudiopolicy.so
-
+ 
 # All the blobs necessary for epic4gtouch
     
 # RIL
@@ -27,7 +25,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/epic4gtouch/proprietary/libril.so:system/lib/libril.so \
     vendor/samsung/epic4gtouch/proprietary/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/epic4gtouch/proprietary/libsec-ril40.so:system/lib/libsec-ril40.so \
-    vendor/samsung/epic4gtouch/proprietary/rild:system/bin/rild
+    vendor/samsung/epic4gtouch/proprietary/rild:system/bin/rild \
+	vendor/samsung/epic4gtouch/proprietary/pppd_runner:system/bin/pppd_runner
 
 # Keychars
 PRODUCT_COPY_FILES += \

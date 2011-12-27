@@ -25,8 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c1-common/proprietary/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/samsung/c1-common/proprietary/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/c1-common/proprietary/libcaps.so:system/lib/libcaps.so \
-    vendor/samsung/c1-common/proprietary/libEGL.so:system/lib/libEGL.so \
-    vendor/samsung/c1-common/proprietary/libexif.so:system/lib/libexif.so \
+     vendor/samsung/c1-common/proprietary/libexif.so:system/lib/libexif.so \
     vendor/samsung/c1-common/proprietary/libfimc.so:system/lib/libfimc.so \
     vendor/samsung/c1-common/proprietary/libfimg.so:system/lib/libfimg.so \
     vendor/samsung/c1-common/proprietary/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
